@@ -1,0 +1,16 @@
+
+.footer h1{
+    font-size: 4rem;
+}
+
+.footer p{
+    text-align: center;
+}
+footer p samp{
+    color: red;
+    font-size: 5rem;
+}
+
+.footer p span:nth-of-type(2){
+    color: blue;
+}

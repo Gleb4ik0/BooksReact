@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.app {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+
+.app .books {
+ display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
